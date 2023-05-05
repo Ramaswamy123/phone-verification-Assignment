@@ -1,0 +1,74 @@
+.otp-inputs{
+    display:flex;
+}
+.input-box{
+border-bottom: 2px solid #1f1e1e;
+margin-right:15px;
+}
+.otp-input {
+width: 40px;
+height: 40px;
+font-size: 20px;
+text-align: center;
+border-width:0px;
+background-color:rgb(248, 248, 245);
+border-radius: 5px;
+outline:none;
+margin-right:10px;
+}
+
+button {
+margin-top: 30px;
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+background-color: #2b70ff;
+color: white;
+cursor: pointer;
+}
+
+
+button:hover {
+background-color: #2c74c2;
+}
+.app-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.otp-popup-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:350px;
+    width:80%;
+    border-radius:5px;
+    margin-top:30px;
+    background-color:rgb(248, 248, 245);
+    box-shadow: 2px 3px 12px 2px rgb(192, 187, 187);
+    padding:20px;
+}
+.otp-note{
+    color:rgb(199, 194, 194);
+
+}
+.options-container{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+}
+.options{
+    color:#2260a7;
+    font-size:20px;
+    font-weight:500;
+}
+.otp-button{
+    width:250px;
+    border-radius:20px;
+    margin-top:30px;
+}
+.otp-button:hover{
+    background-color:rgb(21, 184, 21);
+}
